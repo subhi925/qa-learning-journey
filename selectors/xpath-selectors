@@ -1,1 +1,8 @@
 
+## XPath Practice
+
+//input[@id='username']  
+//input[@id='password']  
+//button[@type='submit']  
+//div[contains(@class,'flash')]  
+link: https://the-internet.herokuapp.com/login
