@@ -56,6 +56,23 @@ Assertions help confirm what the user sees on the screen
 
 I am learning step by step and practicing by doing
 
+## Day 3 – Cypress Test Examples
+
+Here are my test scenarios:
+
+### Invalid Login Test
+```js
+describe("Login test", () => {
+  it("Login with invalid credentials", () => {
+    cy.visit("https://the-internet.herokuapp.com/login");
+    cy.get("#username").type("tomsmith2");
+    cy.get("#password").type("SuperSecretPassword!");
+    cy.get('button[type="submit"]').click();
+    cy.contains("Your username is invalid!").should("be.visible");
+  });
+});
+
+
 Tools & Skills
 
 Cypress (basic)
