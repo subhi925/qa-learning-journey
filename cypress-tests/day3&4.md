@@ -56,6 +56,17 @@ Assertions help confirm what the user sees on the screen
 
 I am learning step by step and practicing by doing
 
+
+Tools & Skills
+
+Cypress (basic)
+
+CSS selectors
+
+Basic automation logic
+
+QA mindset
+
 ## Day 3 – Cypress Test Examples
 
 Here are my test scenarios:
@@ -71,14 +82,4 @@ describe("Login test", () => {
     cy.contains("Your username is invalid!").should("be.visible");
   });
 });
-
-
-Tools & Skills
-
-Cypress (basic)
-
-CSS selectors
-
-Basic automation logic
-
-QA mindset
+``
